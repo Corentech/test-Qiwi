@@ -11,7 +11,7 @@ export default function HomePage() {
           <div className="flex justify-center mb-6">
             <GraduationCap className="h-16 w-16 text-blue-600" />
           </div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">PeerTutor Platform</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Qiwi</h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Connect with fellow students who have succeeded in their exams. Learn from peers or share your knowledge by
             teaching others.
