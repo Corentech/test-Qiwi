@@ -5,25 +5,25 @@ import Link from "next/link"
 
 export default function HomePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
-      <div className="container mx-auto px-4 py-16">
-        <div className="text-center mb-16">
-          <div className="flex justify-center mb-6">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex flex-col justify-center">
+      <div className="container mx-auto px-4">
+        <div className="text-center mb-12">
+          <div className="flex justify-center mb-4">
             <GraduationCap className="h-16 w-16 text-blue-600" />
           </div>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Qiwi</h1>
-          <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+          <h1 className="text-4xl font-bold text-gray-900 mb-3">Qiwi</h1>
+          <p className="text-xl text-gray-600 mb-6 max-w-2xl mx-auto">
             Connect with fellow students who have succeeded in their exams. Learn from peers or share your knowledge by
             teaching others.
           </p>
-          <Button asChild size="lg" className="text-lg px-8 py-3">
+          <Button asChild size="lg" className="text-lg px-10 py-4">
             <Link href="/auth/login">
               Login with University SSO
             </Link>
           </Button>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
+        <div className="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           <Card>
             <CardHeader>
               <Users className="h-8 w-8 text-blue-600 mb-2" />
