@@ -1,0 +1,14 @@
+import { NextResponse } from "next/server"
+import type { NextRequest } from "next/server"
+
+export function middleware(request: NextRequest) {
+  // Pendant le développement, on laisse passer toutes les requêtes
+  return NextResponse.next()
+}
+
+export const config = {
+  matcher: [
+    "/dashboard/:path*",
+    "/auth/:path*",
+  ],
+} 

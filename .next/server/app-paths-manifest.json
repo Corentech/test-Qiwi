@@ -1,4 +1,9 @@
 {
+  "/dashboard/teacher/page": "app/dashboard/teacher/page.js",
+  "/dashboard/learner/classes/page": "app/dashboard/learner/classes/page.js",
   "/dashboard/learner/page": "app/dashboard/learner/page.js",
-  "/page": "app/page.js"
+  "/dashboard/learner/home/page": "app/dashboard/learner/home/page.js",
+  "/dashboard/learner/book-course/page": "app/dashboard/learner/book-course/page.js",
+  "/dashboard/learner/teacher/page": "app/dashboard/learner/teacher/page.js",
+  "/dashboard/learner/agenda/page": "app/dashboard/learner/agenda/page.js"
 }
